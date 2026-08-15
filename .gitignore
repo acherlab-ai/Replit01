@@ -1,0 +1,4 @@
+# .gitignore (tuỳ chọn)
+__pycache__
+*.pyc
+.venv
