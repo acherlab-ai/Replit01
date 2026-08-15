@@ -1,0 +1,15 @@
+# .replit - Cấu hình chạy terminal web
+language = "python3"
+run = "bash start.sh"
+
+[[ports]]
+localPort = 8080
+externalPort = 80
+
+[nix]
+channel = "stable-23_11"
+
+[env]
+PYTHONUNBUFFERED = "1"
+FLASK_APP = "app.py"
+FLASK_ENV = "production"
